@@ -1,0 +1,34 @@
+{
+  "name": "jscs-html-output",
+  "version": "1.0.0",
+  "description": "A JSCS plugin for producing a pretty HTML report for viewing in browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boldfacedesign/jscs-html-output.git"
+  },
+  "keywords": [
+    "JSCS",
+    "HTML",
+    "Gulp",
+    "Grunt"
+  ],
+  "author": "David Parker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boldfacedesign/jscs-html-output/issues"
+  },
+  "homepage": "https://github.com/boldfacedesign/jscs-html-output",
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "rewire": "^2.3.4",
+    "xo": "^0.10.0"
+  },
+  "dependencies": {
+    "fs-extra": "^0.26.0",
+    "through2": "^2.0.0"
+  }
+}
